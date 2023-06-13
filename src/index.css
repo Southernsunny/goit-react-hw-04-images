@@ -1,0 +1,45 @@
+@import 'normalize.css'; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  background-image: url('https://i.pinimg.com/originals/82/f3/3c/82f33c83e658969547fbce1afda7c1b5.gif');
+  /* background-image: url('https://i.pinimg.com/originals/19/6a/d9/196ad9d3122098b297d7b99ce9ff209f.gif'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+}
+
+body.modal-open {
+  overflow: hidden;
+  
+}
